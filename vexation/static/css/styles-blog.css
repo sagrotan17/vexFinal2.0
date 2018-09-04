@@ -1,0 +1,78 @@
+
+/*********************************************
+**********************************************
+ist aus der personell.css entstanden
+
+*********************************************/
+
+body, html { background: rgb(77, 77, 77); }
+
+.container-fluid { max-width: 1800px;
+
+	padding-bottom: 15px;
+
+		 }
+
+header {
+	background: rgb(77, 77, 77);
+	padding: 2em 1em;
+	color: rgb(232, 232, 232);
+	text-transform: uppercase;
+	
+	margin-bottom: 2em;
+
+}
+
+.card {
+	background: rgb(141, 141, 141);
+	
+	img {
+		width: 100%;
+	}
+}
+
+[class*="row"] {
+	margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="col-"] {
+	background: transparent;
+	border: 8px solid transparent;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+
+	width: 100%;
+}
+
+/* d-flex container mit je 2px rahmen in gleicher
+	farbe wie hintergrund.
+	transision für den hover over effekt -> frabe
+	von hellgrau nach dunkelgrau*/
+
+.d-flex {
+	border-bottom: 2px solid #8d8d8d;
+	background-color: #d1d1d1;
+	transision: 0.5s;
+	}
+
+
+
+.d-flex:hover, a:hover {
+	background-color: #4d4d4d;
+	color: white; /* Schriftfarbe */
+	text-decoration: none; /* keine unterstreichung v. links */
+	outline: none; /* kein dotted frame nach klick*/
+
+}
+
+a{
+	color: black; /* Schriftfarbe */
+	text-decoration: none; /* keine Unterstreichung v. link */
+	 /* linktext in großbuchstaben */
+
+}
+
+.nounderline {
+  text-decoration: none !important
+}

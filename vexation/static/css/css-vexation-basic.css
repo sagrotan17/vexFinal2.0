@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700');
+
+html, body {
+  font-family: 'monserrat', sans-serif !important;
+  height: 100%;
+  font-size: 1rem;
+  line-height: 1.0rem;
+  font-weight: 300;
+
+  color: #fff;
+  background-color: rgb(31, 31, 31);
+}
+
+    h1{font-size: 180%}
+    h2{font-size: 150%}
+    h3{font-size: 100%}
+    h4{font-size: 120%}
+    h5{font-size: 110%}
+
+
+p, .p-4 {
+font-size: 75%;
+margin-bottom: 0.5rem;
+}
+
+.p-3 {
+
+    padding: 0.1rem !important;
+        }
+.my-3 {
+    background-color: rgb(224, 125, 4);
+    margin-top: 0.1rem !important;
+    margin-bottom: 0.1rem !important;
+}
+
+
+/* 60em = 60x16px = 960px weite: */
+@media screen and (min-width: 900px){
+html, body{
+    font-size:120%;
+    line-height: 1.2rem};
+    h1{font-size: 240%};
+    h2{font-size: 230%};
+    h3{font-size: 210%};
+    h4{font-size: 180%};
+    h5{font-size: 150%}
+}
+
+
+
+.container{padding-top:10px; padding-bottom: 10px;}
+
+
+.navbar{ background-color: rgba(31, 31, 31,0.5); }
+.dropdown-menu{background-color: rgba(41, 47, 51,0.9); }
+.dropdown-item{color:#fff;}
+
+
+	
+
+a:hover {
+text-decoration: none; }
+
+a {
+    color: #ffa328;
+    text-decoration: none;
+    }
+
+.cards{padding-top: 0.95rem;}
+
+pre {
+    font-size: 70%;
+    }
+
